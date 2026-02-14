@@ -1,0 +1,5 @@
+ami_id                  = "ami-0b6c6ebed2801a5cb"
+instance_type           = "t2.micro"
+aws_region              = "us-east-1"
+allowed_ssh_cidr        = "0.0.0.0/0"
+existing_key_pair_name  = "devops1"
