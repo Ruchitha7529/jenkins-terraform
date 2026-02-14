@@ -46,7 +46,7 @@ resource "aws_security_group" "ec2_sg" {
     cidr_blocks = ["0.0.0.0/0"]
   }
   tags = {
-    Name = "terraform-ec2-sg"
+    Name = "terraform-ec2-sg-v2"
   }
 }
 resource "aws_instance" "ec2" {
